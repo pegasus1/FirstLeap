@@ -13,8 +13,12 @@
   </servlet>
   <servlet-mapping>
     <servlet-name>dispatcher</servlet-name>
-    <url-pattern>/welcome.jsp</url-pattern>
-    <url-pattern>/welcome.html</url-pattern>
+    <url-pattern>/userForm.jsp</url-pattern>
+    <url-pattern>/userForm</url-pattern>
+    <url-pattern>/userForm.html</url-pattern>
+    
+    <url-pattern>/login</url-pattern>
+    <url-pattern>/add</url-pattern>
     <url-pattern>*.html</url-pattern>
   </servlet-mapping>
 </web-app>
